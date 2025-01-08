@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Traveller-App/static/css/main.d9e502c5.chunk.css",
+    "main.js": "/Traveller-App/static/js/main.2772c60c.chunk.js",
+    "main.js.map": "/Traveller-App/static/js/main.2772c60c.chunk.js.map",
+    "runtime-main.js": "/Traveller-App/static/js/runtime-main.010d113b.js",
+    "runtime-main.js.map": "/Traveller-App/static/js/runtime-main.010d113b.js.map",
+    "static/js/2.8ead7fbb.chunk.js": "/Traveller-App/static/js/2.8ead7fbb.chunk.js",
+    "static/js/2.8ead7fbb.chunk.js.map": "/Traveller-App/static/js/2.8ead7fbb.chunk.js.map",
+    "static/js/3.0134d352.chunk.js": "/Traveller-App/static/js/3.0134d352.chunk.js",
+    "static/js/3.0134d352.chunk.js.map": "/Traveller-App/static/js/3.0134d352.chunk.js.map",
+    "index.html": "/Traveller-App/index.html",
+    "static/css/main.d9e502c5.chunk.css.map": "/Traveller-App/static/css/main.d9e502c5.chunk.css.map",
+    "static/js/2.8ead7fbb.chunk.js.LICENSE.txt": "/Traveller-App/static/js/2.8ead7fbb.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Traveller-App/static/media/logo.5c4eda44.svg",
+    "static/media/place.svg": "/Traveller-App/static/media/place.7d64241c.svg",
+    "static/media/search.svg": "/Traveller-App/static/media/search.7be21539.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.010d113b.js",
+    "static/js/2.8ead7fbb.chunk.js",
+    "static/css/main.d9e502c5.chunk.css",
+    "static/js/main.2772c60c.chunk.js"
+  ]
+}
