@@ -82,8 +82,14 @@ const PlacesContainer = styled.ul`
 `;
 const PlaceCard = styled.li`
     width: 23.5%;
-    margin-right: 2%;
+    margin-right: 20px;
     margin-bottom: 25px;
+    @media all and (max-width: 1465px) {
+        width: 23%;
+    }
+    @media all and (max-width: 1025px) {
+        width: 22.5%;
+    }
     @media all and (max-width: 1080px) {
         margin-bottom: 20px;
     }
