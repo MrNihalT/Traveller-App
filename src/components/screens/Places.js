@@ -63,6 +63,8 @@ export default function Places() {
 const TopContainer = styled.div`
     width: 90%;
     margin: 100px auto 0;
+    @media all and (max-width: 1080px) {
+    }
 `;
 const Heading = styled.h1`
     font-size: 36px;
@@ -82,8 +84,17 @@ const PlaceCard = styled.li`
     width: 23.5%;
     margin-right: 2%;
     margin-bottom: 25px;
-    &:nth-child(4n) {
-        margin-right: 0;
+    @media all and (max-width: 1080px) {
+        margin-bottom: 20px;
+    }
+    @media all and (max-width: 920px) {
+        width: 31%;
+        margin-right: 10px;
+        margin-bottom: 25px;
+    }
+    @media all and (max-width: 500px) {
+        width: 46%;
+        margin-right: 10px;
     }
 `;
 
@@ -95,8 +106,7 @@ const PlaceCardLink = styled(Link)`
 const PlaceImage = styled.img`
     width: 100%;
     display: block;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 12px;
 `;
 const PlaceBottomContainer = styled.div`
     padding: 10px 15px;
@@ -104,15 +114,33 @@ const PlaceBottomContainer = styled.div`
 const PlaceTitle = styled.h3`
     margin-bottom: 10px;
     font-size: 20px;
+    @media all and (max-width: 920px) {
+        font-size: 18px;
+    }
+    @media all and (max-width: 768px) {
+        font-size: 16px;
+    }
 `;
 const Location = styled.div`
     display: flex;
 `;
 const LocationIcon = styled.img`
     margin-right: 10px;
+    @media all and (max-width: 500px) {
+        height: 14px;
+    }
 `;
 const LocationName = styled.span`
     font-size: 18px;
+    @media all and (max-width: 920px) {
+        font-size: 16px;
+    }
+    @media all and (max-width: 768px) {
+        font-size: 14px;
+    }
+    @media all and (max-width: 500px) {
+        font-size: 12px;
+    }
 `;
 const PaginationContainer = styled.div`
     width: 90%;
